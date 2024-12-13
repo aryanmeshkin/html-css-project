@@ -7,6 +7,7 @@
   font-family: iransans;
   direction: rtl;
   box-sizing: border-box;
+  margin: 0;
 }
 .body {
 }
@@ -268,7 +269,7 @@ a:link {
     margin-top: 1rem;
   }
   .hero-elements__sample {
-    width: 32rem;
+    width: 22rem;
     height: 8.7rem;
     margin: 0 0;
   }
@@ -448,6 +449,9 @@ a:link {
   }
 }
 @media screen and (max-width: 768px) {
+  .advantage-right__img{
+    padding: 1rem;
+  }
 }
 /* services */
 .services {
@@ -617,6 +621,10 @@ a:link {
 @media screen and (max-width: 992px) {
 }
 @media screen and (max-width: 768px) {
+  .cta-box__text {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 /* portfolio */
 .portfolio {
@@ -757,6 +765,12 @@ a:link {
   }
 }
 @media screen and (max-width: 768px) {
+  .exprienced__left{
+    padding: 2rem;
+  }
+  .exprienced__img{
+    padding: 1rem;
+  }
 }
 /* Testimonial */
 .testimonial {
