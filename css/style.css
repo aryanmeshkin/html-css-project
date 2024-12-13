@@ -267,6 +267,9 @@ a:link {
   .hero-elements__top-part {
     width: 30rem;
     margin-top: 1rem;
+    max-width: 18rem;
+    margin-top: 7rem;
+    margin-bottom: 2.8rem;
   }
   .hero-elements__sample {
     width: 22rem;
@@ -283,10 +286,6 @@ a:link {
   .hero-elements__text-name {
     font-size: 2rem;
     opacity: 1;
-  }
-  .hero-elements__top-part {
-    margin-top: 7rem;
-    margin-bottom: 2.8rem;
   }
   .hero-elements__text-describe {
     font-size: 1.2rem;
@@ -766,7 +765,10 @@ a:link {
 }
 @media screen and (max-width: 768px) {
   .exprienced__left{
-    padding: 2rem;
+    padding: 0;
+    max-width: 100%;
+    padding-right: 0.5rem;
+    
   }
   .exprienced__img{
     padding: 1rem;
@@ -1061,11 +1063,18 @@ a:link {
   }
 }
 @media screen and (max-width: 768px) {
+  .footer-box{
+    padding: 1rem;
+  }
   .column{
     width: 100%;
+    margin-bottom: 4rem;
   }
   .footer-form{
-    width: 20rem;
+    width: 17rem;
+  }
+  .footer-news{
+    max-width: 17rem;
   }
 }
 /* responsive all */
