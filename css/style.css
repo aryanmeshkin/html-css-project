@@ -127,7 +127,7 @@ a:link {
     height: auto;
   }
   .navbar{
-    justify-content: left;
+    justify-content: center;
     padding-left: 0;
   }
 }
