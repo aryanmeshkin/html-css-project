@@ -111,13 +111,24 @@ a:link {
   
 }
 @media screen and (max-width: 992px) {
-  .menu__link{
-    font-size: 0.7rem;
+  .menu{
+    display: none;
+  }
+  .navbar{
+    justify-content: left;
+    padding-left: 4rem;
+  }
+  .logo{
+    margin-left: 2rem;
   }
 }
 @media screen and (max-width: 768px) {
   .header {
     height: auto;
+  }
+  .navbar{
+    justify-content: left;
+    padding-left: 0;
   }
 }
 /* hero section */
@@ -1026,7 +1037,7 @@ a:link {
 @media screen and (max-width: 992px) {
   .footer-box{
     flex-wrap: wrap;
-
+    padding: 2rem;
   }
   .column{
     width: 50%;
